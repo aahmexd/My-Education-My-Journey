@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+  <title>My Opportunity </title>
+  <link href="quizStyle.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css" />
+</head>
+<body> 
+
+  <!-- HERO HEADER -->
+  <section  id= "quizHeader"class="hero is-medium is-warning has-text-centered"
+    style="background-image: url('https://www.xmple.com/wallpaper/yellow-gradient-orange-linear-1920x1080-c2-f1e50c-f14e0c-a-120-f-14.svg')">
+  <div class="hero-body">
+    <p class="title is-size-1 has-text-white">
+      My Opportunity
+    </p>
+    <p class="subtitle is-size-5 has-text-white">
+      You have made good progress in funding toward your education. Well done! Please provide your most honest response to the following questions. Best Luck!
+    </p>
+  </div>
+</section>
+    <progress class="progress is-warning" value="50" max="100">50%</progress>
+
+<!-- Question 1-->
+<div class="card">
+  <div class="card-content">
+    <div class="content">
+      What is your Immigration status?
+      
+    </div>
+    <select name="immgrationStatus" id="immigrationStatus" data-eligibity-target="immigration_status">
+                <option value="select">Select</option>
+                <option value="daca">DACA</option>
+                <option value="non-daca">Non-DACA</option>
+                <option value="tps">TSP</option>
+            </select>
+  </div>
+</div>
+  <br>
+  
+  <!-- Question 2-->
+<div class="card">
+  <div class="card-content">
+    <div class="content">
+      What is your Gender?
+    </div>
+    <select name="gender" id="gender">
+                <option value="select">Select</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="transgender">
+                    Transgender
+                </option>
+                <option value="non-binary">Non-binary</option>
+            </select>
+  </div>
+</div>
+   <br>
+  
+  <!-- Question 3
+<div class="card">
+  <
+    div class="card-content">
+    <div class="content">
+      How much is your household's annual income?
+    </div>
+    <p>
+      *pick the range closest to your annual income
+    </p>
+    <select name="income" id="income">
+                <option value="select">Select</option>
+                <option value="need-based">$10,000 - $20,000</option>
+                <option value="need-based">$20,000 - $30,000</option>
+                <option value="need-based">$30,000 - $40,000</option>
+                <option value="need-based">$40,000 - $50,000</option>
+                <option value="need-based">$50,000 - $60,000</option>
+                <option value="scholar">$60,000 - $70,000</option>
+                <option value="scholar">$70,000 - $80,000</option>
+                <option value="scholar">$80,000 - $90,000</option>
+                <option value="scholar">$90,000 - $100,000</option>
+                <option value="scholar">more than $110,000</option>
+            </select>
+  </div>
+</div>
+  <br>
+  -->
+  
+  <!-- Question 4-->
+<div class="card">
+  <div class="card-content">
+    <div class="content">
+      Are you Dependent or Independent? 
+    </div>
+    <p><b>
+      You’re considered a dependent student if:
+    </b></p>
+    <ul>
+<li>For financial aid purposes, you can still be considered a dependent student if you don’t live with or receive financial support from your parents — or even if they refuse to help you with the financial aid process altogether.</li>
+
+If you’re filling out the FAFSA for the 2020-2021 school year, you’re considered a dependent student if the following applies:
+
+<li>You were born after Jan. 1, 1997.</li>
+<li>You’re not married.</li>
+<li>You’re not working on either a master’s or doctorate degree.</li>
+<li>You don’t have children or dependents who receive at least half their financial support from you.</li>
+<li>You’re not currently serving on active duty in the U.S. armed forces.</li>
+<li>You’re not a veteran.</li>
+<li>Your parents aren’t deceased.</li>
+<li>You’re not in foster care, and you’re not a ward of the court.</li>
+<li>You’re not an emancipated minor.</li>
+<li>You’re not an unaccompanied youth who is homeless or self-supporting and at risk of being homeless.</li>
+<li></li>
+    </ul>
+    <br>
+    <p><b>
+      You’re an independent student if you meet any of the following requirements:
+    </b></p>
+    <ul>
+<li>You were born before Jan. 1, 1997.</li>
+<li>You’re married.</li>
+<li>You’re working toward a master’s or doctorate degree.</li>
+<li>You have children or dependents who receive at least half their financial support from you.</li>
+<li>You’re currently serving on active duty in the U.S. armed forces.</li>
+<li>Since you turned 13, your parents are deceased, you were in foster care, or you were a dependent or ward of the court.</li>
+<li>You were an emancipated minor or someone other than a parent or stepparent had legal guardianship of you.</li>
+<li>On or after July 1, 2019, you were determined to be an unaccompanied youth who was homeless.</li>
+    </ul>
+    <select name="dependency" id="dependency">
+                <option value="select">Select</option>
+                <option value="dependent">Dependent</option>
+                <option value="independent">Independent</option>
+            </select>
+  </div>
+</div>
+  <br>
+
+  <!-- Question 5-->
+<div class="card">
+  <div class="card-content">
+    <div class="content">
+      Are you a 1st generation student? 
+    </div>
+    <select name="firstGen" id="firstGen">
+                <option value="select">Select</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+  </div>
+</div>
+  <br>
+  
+  <!-- Question 6-->
+<div class="card">
+  <div class="card-content">
+    <div class="content">
+      Do you reside in Illinois?
+    </div>
+    <select name="residence" id="residence">
+                <option value="select">Select</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+  </div>
+</div>
+  <br>
+  
+  <!-- Question 7-->
+<div class="card">
+  <div class="card-content">
+    <div class="content">
+      What is your highest degree of Education? 
+    </div>
+    <select name="degree" id="degree">
+                <option value="select">Select</option>
+                <option value="highschool graduate">Highschool Graduate</option>
+                <option value="associatesGraduate">Associates Graduate</option>
+                <option value="ged">
+                    GED
+                </option>
+                <option value="collegeGraduate">College Graduate</option>
+            </select>
+  </div>
+</div>
+  <br>
+  
+  <!-- Question 8-->
+<div class="card">
+  <div class="card-content">
+    <div class="content">
+      What is your GPA (grade point average)? 
+    </div>
+   <input id= "gpa"class="input" type="text" placeholder="e.g. 3.5">
+  </div>
+</div>
+  <br>
+
+<!-- Question 9-->
+<div class="card">
+  <div class="card-content">
+    <div class="content">
+      How old are you? 
+    </div>
+   <input id= "age" class="input" type="text" placeholder="e.g. 18">
+  </div>
+</div>
+  <br>
+
+  <div class="columns is-centered">
+  <a href="Results.html" target="_blank">
+  <button id="submit_button" class="button is-warning is-focused is-large has-text-centered">Submit</button>
+  </a>
+</div>
+  
+ <footer>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <div class="social-links">
+      <a href="#" class="fa fa-linkedin"></a>
+      <a href="#" class="fa fa-instagram"></a>
+      <a href="#" class="fa fa-facebook"></a>
+    <script src="script.js"></script>
+  </footer>
+</body>

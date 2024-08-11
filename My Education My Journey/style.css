@@ -1,0 +1,139 @@
+
+*{
+     margin: 0;
+     padding: 0;
+  }
+
+#icon{
+    width: 30px;
+    cursor: pointer;
+}
+
+
+
+
+.undocumented{
+  width:100px;
+  cursor: pointer;
+}
+
+.info{
+  margin-left: 6%;
+  margin-right: 6%;
+  margin-top: 10%;
+}
+.info-2{
+  margin-left: 6%;
+  margin-right: 6%;
+  margin-top: 10%;
+}
+
+.info h1{
+  font-size: 70px;
+  color: (#212121);
+  margin-bottom: 20px;
+}
+span{
+  color: #ff4321;
+}
+.info p{
+  color: (#606163);
+  line-height: 22px;
+}
+.info a{
+  background: (#212121);
+  padding: 10px 18px;
+  text-decoration: none;
+  color: (#fff);
+  display: inline-block;
+  margin: 30px 0;
+  border-radius: 5px;
+}
+.img-box{
+  width: 45%;
+  height: 80%;
+  position: absolute;
+  bottom: 0;
+  right: 100px;
+}
+.img-box img{
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  bottom:0;
+  transform: translateX(-50%);
+  transition: bottom is left is;
+}
+.img-box:hover .back-img{
+  bottom: 40px;
+}
+.img-box:hover .main-img{
+  left:54%;
+}
+.heading{
+  text-align: center;
+  font-size: 4rem;
+  color: #333;
+  padding: 1rem;
+  margin: 2rem 0;
+  background: #rgba(255, 51, 153, .05);
+}
+
+  </div>
+</section>
+
+.social-links{
+  margin-left: 8%;
+  margin-top: 100px;
+}
+
+.social-links a{
+  font-size: 30px;
+  color: var(--secondary-color);
+  margin-right: 20px;
+}
+.social-links a:hover{
+  color: #ff4321;
+}
+
+.heading{
+  font-size: 3rem;
+}
+
+
+.about .row{
+  display: flex;
+  align-items: center;
+  gap:2rem;
+  flex-wrap: wrap;
+  padding: 2rem 0;
+  padding-bottom: 3rem;
+}
+
+.about .row .picture-container{
+  flex:1 1 40rem;
+  position: relative;
+}
+
+.about .row .picture-container picture{
+  width: 100%;
+  border: 1.5rem solid #fff;
+  border-radius: .5rem;
+  box-shadow: 0 .5rem 1rem #rgba(0,0,0,.1);
+  height: 100%;
+  oject-fit: cover;
+}
+
+
+.about .row .content{
+  flex:1 1 40rem;
+}
+
+#intro {
+  background-image: url("https://i.pinimg.com/originals/25/01/1c/25011c90293c7de8aed7887f4a026761.jpg");
+  border-color:darkturquoise;
+} 
+
+#result {
+  background-image: url("https://i.pinimg.com/originals/4c/6f/f6/4c6ff646c08d897ab43395b742a53d09.jpg");
+}
