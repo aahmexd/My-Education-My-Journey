@@ -7,4 +7,4 @@ This project is a web application designed to assist low-income and immigrant st
 
 Historically, immigrant students have faced significant barriers in accessing higher education due to financial constraints and systemic challenges. This tool aims to bridge that gap by providing targeted scholarship opportunities, supporting students who have been historically disadvantaged, and helping them achieve their educational goals.
 
-This project was done on August 2022 for the Google CSSI Program. I never had the chance to upload it until now.
+This project was done on August 2022 for the Google CSSI Program.
