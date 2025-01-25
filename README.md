@@ -1,5 +1,4 @@
 # My-Education-My-Journey
-A website that helps low-income and Immigrant students fund their education.
 
 Programming languages: HTML, CSS, Javascript
 
